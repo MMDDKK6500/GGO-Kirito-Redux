@@ -1,0 +1,107 @@
+/**
+ * @name GGO Kirito Redux
+ * @author MMDDKK
+ * @description VaporousCreeper's GGO Kirito theme modified by me, for my friend
+ * @version 1.0.2
+ */
+
+@import url('https://raw.githack.com/CapnKitten/BetterDiscord/master/Themes/Translucence/css/source.css');
+:root {
+  --app-bg: url(https://images.alphacoders.com/632/632525.png);
+  --app-blur: 0px;
+  --app-margin: 0px;
+  --app-radius: 10px;
+  --app-accent: rgba(196, 18, 18, 1);
+  --button-text-color: rgba(230, 230, 230, 1);
+  --messages-radius: 0px;
+  --messages-padding: 0px;
+  --scrollbar-width: 10px;
+  --messages-color: rgba(
+    28, 28, 28
+    , 0.5);
+  --channels-default: #ed2828;
+  --interactive-muted: #6e1414;
+  --app-accent-text:#ffffff;
+  --mention-color: #ed2828;
+  --mention-rgb: rgba(158, 71, 71, 1);
+  --popout-color: rgba(0,0,0,0.9);
+  --popout-blur: 2px;
+  --popout-radius: 10px;
+}
+
+.content-3YMskv {
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+
+  .containerDefault-3tr_sE {
+      height: 30px; text-align: center; 
+      border-radius: 10px; 
+      padding: 5px 5px 0 5px;
+    }
+
+.markup-2BOw-j a {
+  color: #ff0000; 
+}
+
+.anchor-3Z-8Bb {
+  color: var(--app-accent);
+}
+
+
+.childWrapper-anI2G9,
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+  background-color: rgba(0,0,0,0);
+}
+
+.childWrapper-anI2G9,
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+  color: rgba(230, 230, 230, 1); }
+
+
+.button-1YfofB {
+  color: rgb(71, 71, 71);
+}
+
+.membersWrap-2h-GB4 {
+  background-color: rgba(28, 28, 28, 0.5);
+}
+
+/* Folders */
+
+.expandedFolderBackground-2sPsd- {
+  background-color: rgba(196, 18, 18, 0.75);
+  border-radius: 16px 16px 24px 24px; }
+
+.folder-21wGz3 {
+  background-color: transparent; }
+  .folder-21wGz3.hover-2ji_A7 {
+    background-color: rgba(196, 18, 18, 0.75); }
+
+.expandedFolderBackground-2sPsd- + .listItem-GuPuDH .svg-1X37T1 {
+  filter: none; }
+
+.username-2b1r56 {
+	background-color: transparent;
+	color: var(--app-accent);
+}
+
+.subtext-24R4-w {
+  background-color: transparent;
+  color: var(--button-text-color);
+}
+
+.message-2qnXI6 {
+  border-radius: 15px;
+}
+
+.discriminator-22Okc1 {
+	background-color: transparent;
+	color: var(--app-accent);
+}
+
+.hljs-comment {
+  color: #ff0000; 
+}
