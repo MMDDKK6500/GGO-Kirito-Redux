@@ -3,7 +3,7 @@
  * @author MMDDKK
  * @description VaporousCreeper's GGO Kirito theme modified by me, for my friend
  * @updateUrl https://raw.githubusercontent.com/MMDDKK6500/GGO-Kirito-Redux/main/kirito.theme.css
- * @version 1.0.5
+ * @version 1.0.6
  */
 
 @import url('https://raw.githack.com/CapnKitten/BetterDiscord/master/Themes/Translucence/css/source.css');
@@ -23,7 +23,7 @@
   --messages-radius: 3px;
   --messages-padding: 8px;
   --channels-default: rgba(158, 158, 158, 1);
-  --interactive-muted: #6e1414;
+  --interactive-muted: rgb(105, 105, 105);
   --app-accent-text:#ffffff;
   --mention-color: #ed2828;
   --mention-rgb: rgba(158, 71, 71, 1);
