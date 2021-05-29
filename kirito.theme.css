@@ -3,113 +3,166 @@
  * @author MMDDKK
  * @description VaporousCreeper's GGO Kirito theme modified by me, for my friend
  * @updateUrl https://raw.githubusercontent.com/MMDDKK6500/GGO-Kirito-Redux/main/kirito.theme.css
- * @version 1.0.6
+ * @version 1.0.7
  */
 
-@import url('https://raw.githack.com/CapnKitten/BetterDiscord/master/Themes/Translucence/css/source.css');
-:root {
-  --app-bg: url(https://images.alphacoders.com/632/632525.png);
-  --app-blur: 0px;
-  --app-margin: 0px;
-  --app-radius: 10px;
-  --app-accent: rgba(196, 18, 18, 1);
-  --button-text-color: rgba(230, 230, 230, 1);
-  --messages-radius: 0px;
-  --messages-padding: 0px;
-  --scrollbar-width: 10px;
-  --messages-color: rgba(
-    23, 23, 23
-    , 0.5);
-  --messages-radius: 3px;
-  --messages-padding: 8px;
-  --channels-default: rgba(158, 158, 158, 1);
-  --interactive-muted: rgb(105, 105, 105);
-  --app-accent-text:#ffffff;
-  --mention-color: #ed2828;
-  --mention-rgb: rgba(158, 71, 71, 1);
-  --popout-color: rgba(0,0,0,0.9);
-  --popout-blur: 2px;
-  --popout-radius: 10px;
-}
+ @import url('https://raw.githack.com/CapnKitten/BetterDiscord/master/Themes/Translucence/css/source.css');
+ :root {
+   --app-bg: url(https://images.alphacoders.com/632/632525.png);
+   --app-blur: 0px;
+   --app-margin: 0px;
+   --app-radius: 10px;
+   --app-accent: rgba(196, 18, 18, 1);
+   --button-text-color: rgba(230, 230, 230, 1);
+   --messages-radius: 0px;
+   --messages-padding: 0px;
+   --scrollbar-width: 10px;
+   --messages-color: rgba(
+     23, 23, 23
+     , 0.5);
+   --messages-radius: 3px;
+   --messages-padding: 8px;
+   --channels-default: rgba(158, 158, 158, 1);
+   --interactive-muted: rgb(105, 105, 105);
+   --app-accent-text:#ffffff;
+   --mention-color: #ed2828;
+   --mention-rgb: rgba(158, 71, 71, 1);
+   --popout-color: rgba(0,0,0,0.9);
+   --popout-blur: 2px;
+   --popout-radius: 10px;
+   --activetext-colour: white;
 
-.content-3YMskv {
-  background-color: rgba(0,0,0,0.5);
-  border-radius: 10px;
-}
+   --primary1-colour: red;
+   --primary2-colour: rgba(255,0,0,0.5);
+   --primary3-colour: rgba(100,0,0,0.6);
 
-  .containerDefault-3tr_sE {
-      height: 30px; text-align: center; 
-      border-radius: 10px; 
-      padding: 5px 5px 0 5px;
-    }
+   --secondary1-colour: rgba(50,50,50,0.3);
+   --secondary2-colour: rgba(100,100,100,0.5);
+   --secondary3-colour: rgba(0,0,0,0.5);
 
-.markup-2BOw-j a {
-  color: #ff0000; 
-}
+   --transparency-1: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+ --transparency-2: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+ --transparency-3: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+ --transparency-4: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+   --transparency-5: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+ }
+ 
+ .content-3YMskv {
+   background-color: rgba(0,0,0,0.5);
+   border-radius: 10px;
+ }
+ 
+   .containerDefault-3tr_sE {
+       height: 30px; text-align: center; 
+       border-radius: 10px; 
+       padding: 5px 5px 0 5px;
+     }
+ 
+ .markup-2BOw-j a {
+   color: #ff0000; 
+ }
+ 
+ .anchor-3Z-8Bb {
+   color: var(--app-accent);
+ }
+ 
+ 
+ .childWrapper-anI2G9,
+ .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+ .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+   background-color: rgba(0,0,0,0);
+ }
+ 
+ .childWrapper-anI2G9,
+ .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+ .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+   color: rgba(230, 230, 230, 1); }
+ 
+ 
+ .button-1YfofB {
+   color: rgb(71, 71, 71);
+ }
+ 
+ .membersWrap-2h-GB4 {
+   background-color: rgba(28, 28, 28, 0.5);
+ }
+ 
+ /* Folders */
+ 
+ .expandedFolderBackground-2sPsd- {
+   background-color: rgba(196, 18, 18, 0.75);
+   border-radius: 16px 16px 24px 24px; }
+ 
+ .folder-21wGz3 {
+   background-color: transparent; }
+   .folder-21wGz3.hover-2ji_A7 {
+     background-color: rgba(196, 18, 18, 0.75); }
+ 
+ .expandedFolderBackground-2sPsd- + .listItem-GuPuDH .svg-1X37T1 {
+   filter: none; }
+ 
+ .username-2b1r56 {
+   background-color: transparent;
+   color: var(--app-accent);
+ }
+ 
+ .subtext-24R4-w {
+   background-color: transparent;
+   color: var(--button-text-color);
+ }
+ 
+ .message-2qnXI6:not(.groupStart-23k01U),
+ .message-2qnXI6.compact-T3H92H {
+   margin: 3px; }
+ 
+ .discriminator-22Okc1 {
+   background-color: transparent;
+   color: var(--app-accent);
+ }
+ 
+ .hljs-comment {
+   color: #ff0000; 
+ }
+ 
+ .scroller-3gAZLs {
+   background-color: var(--messages-color);
+   backdrop-filter: blur(1px);
+ }
 
-.anchor-3Z-8Bb {
-  color: var(--app-accent);
-}
+/*idk*/
 
+  .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ, 
+  .ui-tab-bar-item {
+   line-height:15px; 
+   background-color: var(--secondary1-colour); 
+   width: 100%; 
+   transition: width 0.2s; 
+   transition-timing-function: ease-in-out;
+ }
+  .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ:hover, 
+  .ui-tab-bar-item:hover {
+   background-color: var(--secondary2-colour); 
+   width:187px;
+ }
+  .sidebar-CFHs9e .side-8zPYf6 .selected-3s45Ha, 
+  .ui-tab-bar-item.selected {
+   line-height:15px; 
+   background-color: var(--secondary2-colour)!important; 
+   width:187px;
+ }
+  .sidebar-CFHs9e .side-8zPYf6 .header-2RyJ0Y, 
+  .ui-tab-bar-header {
+   background-color: var(--primary3-colour); 
+   border-radius: 3px; 
+   line-height:28px; 
+   padding:0 0 0 10px
+ }
+  .ui-tab-bar-item {margin-bottom: 2px}
 
-.childWrapper-anI2G9,
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
-.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
-  background-color: rgba(0,0,0,0);
-}
+  .sidebar-CFHs9e {padding: 20px 18px 20px 23px ;width: 210px }
+  .sidebarRegion-VFTUkN {flex: 0}
+  .contentColumn-2hrIYH {max-width: 90%;padding: 60px 30px 80px}
 
-.childWrapper-anI2G9,
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
-.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
-  color: rgba(230, 230, 230, 1); }
-
-
-.button-1YfofB {
-  color: rgb(71, 71, 71);
-}
-
-.membersWrap-2h-GB4 {
-  background-color: rgba(28, 28, 28, 0.5);
-}
-
-/* Folders */
-
-.expandedFolderBackground-2sPsd- {
-  background-color: rgba(196, 18, 18, 0.75);
-  border-radius: 16px 16px 24px 24px; }
-
-.folder-21wGz3 {
-  background-color: transparent; }
-  .folder-21wGz3.hover-2ji_A7 {
-    background-color: rgba(196, 18, 18, 0.75); }
-
-.expandedFolderBackground-2sPsd- + .listItem-GuPuDH .svg-1X37T1 {
-  filter: none; }
-
-.username-2b1r56 {
-	background-color: transparent;
-	color: var(--app-accent);
-}
-
-.subtext-24R4-w {
-  background-color: transparent;
-  color: var(--button-text-color);
-}
-
-.message-2qnXI6:not(.groupStart-23k01U),
-.message-2qnXI6.compact-T3H92H {
-  margin: 3px; }
-
-.discriminator-22Okc1 {
-	background-color: transparent;
-	color: var(--app-accent);
-}
-
-.hljs-comment {
-  color: #ff0000; 
-}
-
-.scroller-3gAZLs {
-  background-color: var(--messages-color);
-  backdrop-filter: blur(1px);
-}
+  .side-8zPYf6 .item-PXvHYJ, #bd-settings-sidebar .ui-tab-bar-item {
+    border-radius: 7px
+  }
