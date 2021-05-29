@@ -2,7 +2,8 @@
  * @name GGO Kirito Redux
  * @author MMDDKK
  * @description VaporousCreeper's GGO Kirito theme modified by me, for my friend
- * @version 1.0.3
+ * @updateUrl https://raw.githubusercontent.com/MMDDKK6500/GGO-Kirito-Redux/main/kirito.theme.css
+ * @version 1.0.5
  */
 
 @import url('https://raw.githack.com/CapnKitten/BetterDiscord/master/Themes/Translucence/css/source.css');
@@ -19,9 +20,9 @@
   --messages-color: rgba(
     23, 23, 23
     , 0.5);
-  --messages-radius: 5px;
+  --messages-radius: 3px;
   --messages-padding: 8px;
-  --channels-default: #ed2828;
+  --channels-default: rgba(158, 158, 158, 1);
   --interactive-muted: #6e1414;
   --app-accent-text:#ffffff;
   --mention-color: #ed2828;
@@ -106,4 +107,9 @@
 
 .hljs-comment {
   color: #ff0000; 
+}
+
+.scroller-3gAZLs {
+  background-color: var(--messages-color);
+  backdrop-filter: blur(1px);
 }
