@@ -3,13 +3,13 @@
  * @author MMDDKK
  * @description VaporousCreeper's GGO Kirito theme modified by me, for my friend
  * @updateUrl https://raw.githubusercontent.com/MMDDKK6500/GGO-Kirito-Redux/main/kirito.theme.css
- * @version 1.0.7
+ * @version 1.1.0
  */
 
  @import url('https://raw.githack.com/CapnKitten/BetterDiscord/master/Themes/Translucence/css/source.css');
  :root {
    --app-bg: url(https://images.alphacoders.com/632/632525.png);
-   --app-blur: 0px;
+   --app-blur: 1px;
    --app-margin: 0px;
    --app-radius: 10px;
    --app-accent: rgba(196, 18, 18, 1);
@@ -47,6 +47,21 @@
    --transparency-5: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
  }
  
+ :root {
+    --accent-hue: 0;
+    --accent-saturation: 90%;
+    --accent-lightness: 45%;
+}
+
+.button-1EGGcP {
+    box-shadow: 0px 0px 10px 2px hsl(var(--accent-hsl));
+}
+
+.border-2BJQjd.speaking-3RWJBr {
+    box-shadow: 0 0 0 2px hsl(var(--accent-hsl));
+}
+
+
  .content-3YMskv {
    background-color: rgba(0,0,0,0.5);
    border-radius: 10px;
